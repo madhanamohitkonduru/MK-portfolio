@@ -47,24 +47,23 @@ const skillsSection = {
   title: "Skills",
   // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-      "Programming Languages:",
-      "Python • Java • R • C • C++",
-      // "-----",
-      "Data Manipulation and Analysis:",
-      "Pandas • NumPy • PySpark",
-      // "------------",
-      "Machine Learning & AI:",
-      "MLlib • MLflow • Scikit-Learn • TensorFlow • Keras",
-      // "---------------------",
-      "Web & App Development:",
-      "HTML • CSS • JavaScript • Bootstrap • Dash • Dash Enterprise • Django • Flask • Android Studio",
-      "Data:",
-      "SQL • Databricks • IBM Infosphere DataStage • Netezza • DB2 • MySQL • Snowflake • Oracle • Hadoop",
-      "Cloud  & Other Technologies:",
-      "AWS • Docker • Control-M • Blockchain",
-      "Version Control:",
-      "Git • GitHub • Gitlab"
-
+    "Programming Languages:",
+    "Python • Java • R • C • C++",
+    // "-----",
+    "Data Manipulation and Analysis:",
+    "Pandas • NumPy • PySpark",
+    // "------------",
+    "Machine Learning & AI:",
+    "MLlib • MLflow • Scikit-Learn • TensorFlow • Keras",
+    // "---------------------",
+    "Web & App Development:",
+    "HTML • CSS • JavaScript • Bootstrap • Dash • Dash Enterprise • Django • Flask • Android Studio",
+    "Data:",
+    "SQL • Databricks • IBM Infosphere DataStage • Netezza • DB2 • MySQL • Snowflake • Oracle • Hadoop",
+    "Cloud  & Other Technologies:",
+    "AWS • Docker • Control-M • Blockchain",
+    "Version Control:",
+    "Git • GitHub • Gitlab"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -88,7 +87,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws fa-spin"
     },
     {
-    //   skillName: "firebase",
+      //   skillName: "firebase",
       fontAwesomeClassname: "fas fa-code-branch fa-spin"
     },
     {
@@ -124,7 +123,9 @@ const educationInfo = {
       subHeader: "Bachelor of Engineering in Computer Science & Engineering",
       duration: "August 2016 - April 2020",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Data Warehousing - Theory of Computing - Programming & Data Structures - Cryptography & Network Security - Operating Systems - Database Management Systems"]
+      descBullets: [
+        "Data Warehousing - Theory of Computing - Programming & Data Structures - Cryptography & Network Security - Operating Systems - Database Management Systems"
+      ]
     }
   ]
 };
@@ -180,7 +181,7 @@ const workExperiences = {
         "Automated ETL processes with Python, SQL, and DataStage, cutting manual efforts by 60% and enhancing data accuracy by 25%.",
         "Developed a Python validation framework, bolstering data integrity by 25% and reaching a 95% data completeness rate through thorough quality checks.",
         "Managed maintenance of a health screening mobile app during COVID, resolving both customer and application errors efficiently."
-      ]      
+      ]
     },
     {
       role: "Andriod Developer Intern",
@@ -191,8 +192,8 @@ const workExperiences = {
       descBullets: [
         "Developed a child-friendly quiz app using Android Studio and Firebase with add-on features.",
         "Engaged in code reviews, optimizing and refining application development.",
-        "Conducted thorough testing, ensuring a smooth and successful production release.",
-      ] 
+        "Conducted thorough testing, ensuring a smooth and successful production release."
+      ]
     }
   ]
 };
@@ -207,27 +208,24 @@ const openSource = {
 
 // Some big projects you have worked on
 
-
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Certifications"),
-  subtitle:
-    "Certifications and some cool stuff that I have done !",
+  subtitle: "Certifications and some cool stuff that I have done !",
 
   achievementsCards: [
     {
       title: "Supervised Machine Learning: Regression and Classification",
-      subtitle:
-        "Issued October 2023 by Stanford Online & DeepLearning.AI",
+      subtitle: "Issued October 2023 by Stanford Online & DeepLearning.AI",
       image: require("./assets/images/stanford_online_logo.jpeg"),
       imageAlt: "Standord",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1PNGAVVnNc-FEGJIBKvKndpUoOTL7PHh1/view?usp=drive_link"
-        },
+        }
         // {
         //   name: "Award Letter",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -240,8 +238,7 @@ const achievementSection = {
     },
     {
       title: "Xperience BG Ready Python Certification",
-      subtitle:
-        "Issued August 2020 by Tata Consultancy Services",
+      subtitle: "Issued August 2020 by Tata Consultancy Services",
       image: require("./assets/images/tcsLogo.jpeg"),
       imageAlt: "TCS",
       footerLink: [
@@ -258,19 +255,15 @@ const achievementSection = {
       image: require("./assets/images/digiterati.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", 
-        url: "https://drive.google.com/file/d/1x6T5-L_rq7jpcBgJQnNdc5vot_XAbIAC/view?usp=drive_link"}
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1x6T5-L_rq7jpcBgJQnNdc5vot_XAbIAC/view?usp=drive_link"
+        }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
-
-
-
-
-
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -279,7 +272,6 @@ const contactInfo = {
   number: "+1 562-243-2017",
   email_address: "mohit.kondur1998@gmail.com"
 };
-
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 

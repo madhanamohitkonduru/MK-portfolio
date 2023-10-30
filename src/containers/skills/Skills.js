@@ -46,7 +46,15 @@ export default function Skills() {
             <SoftwareSkill />
             <div>
               {skillsSection.skills.map((skills, i) => {
-                if (skills === "Programming Languages:" || skills === "Data Manipulation and Analysis:" || skills === "Machine Learning & AI:" || skills ==="Web & App Development:" || skills === "Data:" || skills === "Cloud  & Other Technologies:" || skills === "Version Control:" ) {
+                if (
+                  skills === "Programming Languages:" ||
+                  skills === "Data Manipulation and Analysis:" ||
+                  skills === "Machine Learning & AI:" ||
+                  skills === "Web & App Development:" ||
+                  skills === "Data:" ||
+                  skills === "Cloud  & Other Technologies:" ||
+                  skills === "Version Control:"
+                ) {
                   return (
                     <h2
                       key={i}
@@ -71,7 +79,8 @@ export default function Skills() {
                     >
                       {skills}
                     </p>
-                  );}
+                  );
+                }
 
                 //  return (
                 //   <p
@@ -85,8 +94,7 @@ export default function Skills() {
                 //     {skills}
                 //   </p>
                 // );
-              }
-              )}
+              })}
             </div>
           </div>
         </Fade>
@@ -94,4 +102,3 @@ export default function Skills() {
     </div>
   );
 }
- 

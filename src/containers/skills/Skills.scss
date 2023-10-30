@@ -1,6 +1,5 @@
 @import "../../_globalColor";
 
-
 .skills-subheading {
   font-size: 24px;
   font-weight: 700;
@@ -9,9 +8,8 @@
   // text-decoration: underline;
   border-bottom: 1px solid currentColor; // this adds a line like underline
   padding-bottom: 3px; // adjusts space between text and the underline
-  display: inline-block; 
+  display: inline-block;
 }
-
 
 .skills-main-div {
   display: flex;
@@ -75,7 +73,6 @@
     order: 2;
   }
 }
- 
 
 // Media Query
 @media (max-width: 1380px) {
