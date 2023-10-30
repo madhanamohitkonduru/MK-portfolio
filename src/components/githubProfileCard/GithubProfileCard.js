@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo, isHireable} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
-import headshot from '../../assets/images/headshot.jpg';
+// import headshot from '../../assets/images/headshot.jpg';
 
 export default function GithubProfileCard({prof}) {
   if (isHireable) {
@@ -51,8 +51,8 @@ export default function GithubProfileCard({prof}) {
           </div>
           <div className="image-content-profile">
             <img
-              // src={prof.avatarUrl}
-              src = {headshot}
+              src={prof.avatarUrl}
+              // src = {headshot}
               // src = "\assets\images\headshot.jpg"
               // src = "https://avatars.githubusercontent.com/u/125701957"
               alt={prof.name}

@@ -269,8 +269,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Let’s turn possibilities into partnerships. My Inbox is open for all.",
-  number: "+1 562-243-2017",
-  email_address: "mohit.kondur1998@gmail.com"
+  // number: "+1 562-243-2017",
+  // email_address: "mohit.kondur1998@gmail.com"
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
