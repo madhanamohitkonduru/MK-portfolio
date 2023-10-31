@@ -11,6 +11,7 @@ import {
   achievementSection
 } from "../../portfolio";
 
+
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
