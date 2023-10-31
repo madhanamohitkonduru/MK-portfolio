@@ -48,7 +48,7 @@ export default function Skills() {
               {skillsSection.skills.map((skills, i) => {
                 if (
                   skills === "Programming Languages:" ||
-                  skills === "Data Manipulation and Analysis:" ||
+                  skills === "Data Manipulation:" ||
                   skills === "Machine Learning & AI:" ||
                   skills === "Web & App Development:" ||
                   skills === "Data:" ||

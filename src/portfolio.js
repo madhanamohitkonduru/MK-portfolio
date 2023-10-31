@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Madhana Mohit Konduru",
-  title: "Hi all, I'm MK",
+  username: "MK's Portfolio !",
+  title: "Madhana Mohit Konduru",
   subTitle: emoji(
     "Data Scientist 🚀 with a robust foundation in machine learning, data analysis, and data engineering. Demonstrated proficiency in delivering meaningful solutions at institutions like Cal State Long Beach and Tata Consultancy Services. Skilled in deploying advanced algorithms, optimizing data workflows, and developing innovative web applications."
   ),
@@ -50,7 +50,7 @@ const skillsSection = {
     "Programming Languages:",
     "Python • Java • R • C • C++",
     // "-----",
-    "Data Manipulation and Analysis:",
+    "Data Manipulation:",
     "Pandas • NumPy • PySpark",
     // "------------",
     "Machine Learning & AI:",
