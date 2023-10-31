@@ -4,7 +4,7 @@ process = require("process");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
-const USERNAME_GITHUB = process.env.USERNAME_GITHUB;
+const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
 const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
 
@@ -17,15 +17,15 @@ const ERR = {
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
 if (USE_GITHUB_DATA === "true") {
-  if (USERNAME_GITHUB === undefined) {
+  if (GITHUB_USERNAME === undefined) {
     throw new Error(ERR.noUserName);
   }
 
-  console.log(`Fetching profile data for ${USERNAME_GITHUB}`);
+  console.log(`Fetching profile data for ${GITHUB_USERNAME}`);
   var data = JSON.stringify({
     query: `
 {
-  user(login:"${USERNAME_GITHUB}") { 
+  user(login:"${GITHUB_USERNAME}") { 
     name
     bio
     avatarUrl
