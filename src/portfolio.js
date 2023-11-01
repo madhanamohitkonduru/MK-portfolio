@@ -84,7 +84,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       // skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws fa-spin"
+      // fontAwesomeClassname: "fab fa-aws fa-spin"
     },
     {
       //   skillName: "firebase",
@@ -96,7 +96,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       // skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker fa-spin"
+      // fontAwesomeClassname: "fab fa-docker fa-spin"
     }
   ],
   display: true // Set false to hide this section, defaults to true
