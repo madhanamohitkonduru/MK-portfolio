@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillsSection} from "../../portfolio";
+import {illustration, skillsSection} from "../../portfolio"; 
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -82,18 +82,6 @@ export default function Skills() {
                   );
                 }
 
-                //  return (
-                //   <p
-                //     key={i}
-                //     className={
-                //       isDark
-                //         ? "dark-mode subTitle skills-text"
-                //         : "subTitle skills-text"
-                //     }
-                //   >
-                //     {skills}
-                //   </p>
-                // );
               })}
             </div>
           </div>
