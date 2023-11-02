@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Data Scientist 🚀 with a robust foundation in machine learning, data analysis, and data engineering. Demonstrated proficiency in delivering meaningful solutions at institutions like Cal State Long Beach and Tata Consultancy Services. Skilled in deploying advanced algorithms, optimizing data workflows, and developing innovative web applications."
   ),
-  resumeLink:"https://drive.google.com/file/d/1Qzw_DubjbXNvXKAFC2CyW3Yc5nzaVruq/view?usp=drive_link", // Set to empty to hide the button
+  resumeLink:"https://drive.google.com/file/d/1uMLttifywExjw6imdYF5eItEGs2RJZWG/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
