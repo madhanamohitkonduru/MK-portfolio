@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Data Scientist 🚀 with a robust foundation in machine learning, data analysis, and data engineering. Demonstrated proficiency in delivering meaningful solutions at institutions like Cal State Long Beach and Tata Consultancy Services. Skilled in deploying advanced algorithms, optimizing data workflows, and developing innovative web applications."
   ),
-  resumeLink:"https://drive.google.com/file/d/19yMjrrCK74lCrejqIJhBQqveNBhWl43q/view?usp=drive_link", // Set to empty to hide the button
+  resumeLink:"https://drive.google.com/file/d/1Hki4xpgJ8wswjtwkQRPBcCYK83RU3h_H/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,13 +47,13 @@ const skillsSection = {
   // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     "Programming Languages:",
-    "Python • Java • R • C • C++",
+    "Python • Java • R • C • C++ • JavaScript",
     // "-----",
     "Data Manipulation:",
     "Pandas • NumPy • PySpark",
     // "------------",
     "Machine Learning & AI:",
-    "MLlib • MLflow • Scikit-Learn • TensorFlow • Keras",
+    "MLlib • MLflow • Scikit-Learn • TensorFlow • Keras • PyTorch",
     // "---------------------",
     "Web & App Development:",
     "HTML • CSS • JavaScript • Bootstrap • Dash • Dash Enterprise • Django • Flask • Android Studio",
@@ -269,7 +269,7 @@ const contactInfo = {
   subtitle:
     "Let’s turn possibilities into partnerships. My Inbox is open for all.",
   // number: "+1 562-243-2017",
-  // email_address: "mohit.kondur1998@gmail.com"
+  email_address: "mohit.kondur1998@gmail.com"
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
